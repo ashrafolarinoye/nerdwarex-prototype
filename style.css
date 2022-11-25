@@ -915,12 +915,13 @@ color: aliceblue;
 
          .bg4 .courses2{
             display: block;
+            padding: 20px;
             
          }
          .bg4 .courses2 .cbody{
             width: 345px;
             height: 45vh;
-            margin-left: 4vw;
+            margin-left: -7vw;
          }
          .bg4 .javaandco {
             width: 340px;
@@ -943,7 +944,7 @@ color: aliceblue;
             display: block;
             width: 345px;
             height: 45vh;
-            margin-left: 3vw;
+            margin-left: -9vw;
         }
 
         .bg4 .sl .cbody{
