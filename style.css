@@ -788,7 +788,7 @@ color: aliceblue;
           width: 50px;
           height: 50px;
           padding: 13px;
-          margin-right: 330px;
+          margin-right: 316px;
           margin-top: 8px;
         }
         .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
@@ -920,7 +920,7 @@ color: aliceblue;
          .bg4 .courses2 .cbody{
             width: 345px;
             height: 45vh;
-            margin-left: 6vw;
+            margin-left: 4vw;
          }
          .bg4 .javaandco {
             width: 340px;
