@@ -1118,32 +1118,61 @@ color: aliceblue;
             margin-right: 2vw;
         }
         .bg5 {
-            margin-top: 3vh;
+            margin-top: 2vh;
+            display: block;
+        }
+        .bg5 .newway{
+            width: 100%;
+            text-align: center;
+        }
+        .bg5 .newway h1{
+            font-size: 6vw;
+            left: 0px;
+        }
+        .bg5 .newway p {
+            font-size: 3vw;
+            top: 4vw;
+            padding: 4vw;
+            line-height: normal;
+            left: 0px;
+        }
+        .bg5 .newway .gs {
+            font-size: 3vw;
+            top: 2vw;
         }
         .bg6{
             height: 19vh;
         }
-
+        .bg5 .first img{
+            width: 100%;
+            left: 26vw;
+            margin-top: 3vh;
+        }
+        .bg6 h2 {
+            padding-top: 15vw;
+            font-size: 6vw;
+        }
+        .bg6 p {
+            font-size: 3vw;
+            padding: 4vw;
+        }
         .bg7 {
             display: block;
             left: 14vw;
-
         }
-
         .bg7 .bai h1 {
             left: 30vw;
         }
-
         .bg7 .bai p {
             left: 30vw;
         }
-
         .bg7 .bai .instructor {
             left: 30vw;
         }
         .bg7 img {
-            left: 14vw;
-            width: 300px;
+            left: 10vw;
+            width: 80%;
+            margin-top: 30vh;
             
         }
         .bg4 .author {
