@@ -1146,6 +1146,8 @@ color: aliceblue;
             margin: 0px;
             background-color: #3551A0;
             border-radius: 0px;
+            height: 97vh;
+            text-align: center;
         }
         .bg8 .rows .row1 {
             margin-top: 15vh;
@@ -1167,6 +1169,12 @@ color: aliceblue;
         .bg8 .rowsthree {
             margin-left: 10vw;
             margin-top: 15vw;
+        }
+        .bg8 .rowstwo a {
+            font-size: small;
+        }
+        .bg8 .rowsthree p {
+            font-size: small;
         }
 /*Courses.html Page responsiveness*/
         .aboutus-bg h1 {
