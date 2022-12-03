@@ -206,6 +206,12 @@ height: 196px;
     background-color:rgb(1, 1, 117) ;
     height: 50vw;
  }
+
+ .bg4two{
+    background-color:rgb(1, 1, 117) ;
+    height: 50vw;
+ }
+
  .bg4 .exc{
     display: flex;
     color: white;
@@ -235,16 +241,13 @@ height: 196px;
     color: white;
 }
 
-.bg4h22{
-    font-family: 'Jost';  
-    margin-left: 4.5vw;
-    margin-left: 4.5vw;
-    color: white;
-}
-
 .bg4 .courses2{
     display: flex;
 }
+.bg4two .courses2{
+    display: flex;
+}
+
 .bg4 nav{
     display: flex;
 }
@@ -258,9 +261,18 @@ height: 196px;
     margin-left: 3.5vw;
     margin-top: 4vw;
     margin-bottom: 30px;
-    
-
 }
+.bg4two .courses2 .cbody{
+    border: #15ADD9 solid 0.1vw;
+    width: 27vw;
+    padding: 0.4vw;
+    border-radius: 20px;
+    height: 70vh;
+    margin-left: 3.5vw;
+    margin-top: 4vw;
+    margin-bottom: 30px;
+}
+
 .bg4 .javaandco{ 
     border-radius: 20px;
     background:url(/images/java\ and\ co.PNG);
@@ -269,7 +281,27 @@ height: 196px;
     width: 26vw;
     height: 30vh;
 }
+.bg4two .javaandco{ 
+    border-radius: 20px;
+    background:url(/images/java\ and\ co.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 26vw;
+    height: 30vh;
+}
+
 .bg4 .javaandco button{
+    background: linear-gradient(180deg, #1687D9 0%, #1626D9 100%);
+    color: white;
+    border-radius: 7px;
+    border-radius: 25px;
+    padding: 14px;
+    padding: 8px 23px 8px 23px;
+    position: relative;
+    left: 0.4vw;
+    top: 0.5vw;
+}
+.bg4two .javaandco button{
     background: linear-gradient(180deg, #1687D9 0%, #1626D9 100%);
     color: white;
     border-radius: 7px;
@@ -289,28 +321,60 @@ height: 196px;
     left: 14vw;
     top: 0.5vw;
 }
+.bg4two .javaandco .love{
+    background-color: rgb(1, 1, 117);
+    color: white;
+    border-radius: 15px;
+    padding: 4px;
+    position: relative;
+    left: 14vw;
+    top: 0.5vw;
+}
 .bg4 .javaandco2{
   display: flex; 
   color: white; 
   margin-top: 1vw;
   font-size: 1.1vw;
-
 }
-.bg4 .javaandco2 .dev{
-     margin-right: 12.8vw;
-     color: #E0E0E080;
-
+.bg4two .javaandco2{
+    display: flex; 
+    color: white; 
+    margin-top: 1vw;
+    font-size: 1.1vw;
   }
+.bg4 .javaandco2 .dev{
+    margin-right: 12.8vw;
+    color: #E0E0E080;
+}
+.bg4two .javaandco2 .dev{
+    margin-right: 12.8vw;
+    color: #E0E0E080;
+ }
 .bg4 .javaandco3{
     margin-top: 0.8vw;
 }
-
+.bg4two .javaandco3{
+    margin-top: 0.8vw;
+}
 .bg4 .javaandco3 a{
     text-decoration: none;
     color: white;
     font-size: 1.1vw;
 }
+.bg4two .javaandco3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1vw;
+}
 .bg4 .author{
+    display: flex;
+    margin-top: 1.5vw;
+    color: white;
+    font-size: 0.9vw;
+    border-bottom: thin solid rgb(5, 121, 167) ;
+    padding-bottom: 2.5vw;
+}
+.bg4two .author{
     display: flex;
     margin-top: 1.5vw;
     color: white;
@@ -324,14 +388,30 @@ height: 196px;
     border-radius: 14vw;
     margin-right: 0.6vw;
 }
+.bg4two .author img{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 14vw;
+    margin-right: 0.6vw;
+}
 .bg4 .author p{
+    position: relative;
+    top: 0.5vw;
+}
+.bg4two .author p{
     position: relative;
     top: 0.5vw;
 }
 .bg4 .author .rr{
     margin-right: 5.8vw;
 }
+.bg4two .author .rr{
+    margin-right: 5.8vw;
+}
 .bg4 .author .amount{
+    font-size: 1.2vw;
+}
+.bg4two .author .amount{
     font-size: 1.2vw;
 }
 .bg4 .others{
@@ -341,19 +421,14 @@ height: 196px;
     gap: 36px;
     margin-left: 1vw;
 }
-.bg4 .sl{
+.bg4two .others{
     display: flex;
+    color: white;
+    margin-top: 1vw;
+    gap: 36px;
+    margin-left: 1vw;
 }
-.bg4 .sl .cbody{
-    border: #15ADD9 solid 0.1vw;
-    width: 27vw;
-    padding: 0.4vw;
-    border-radius: 20px;
-    height: 70vh;
-    margin-left: 3.5vw;
-    margin-top: 4vw;
-    margin-bottom: 30px;
-}
+
 .bg4 .va{
     position: relative;
     margin-top: 0px;
@@ -374,6 +449,26 @@ height: 196px;
     background-color: white;
     transition: 0.5s;
  }
+.bg4two .va{
+    position: relative;
+    margin-top: 0px;
+    top: 40vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    right: 53vw;
+    background-image: linear-gradient(224.06deg, #1687D9 14.4%, #16C8D9 94.95%);
+    padding: 14px;
+    padding: 8px 30px 10px 30px;
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+ }
+ .bg4two .va:hover{
+    color: rgb(3, 66, 91) ;
+    background-color: white;
+    transition: 0.5s;
+ }
 .bg5{
     background-color:rgb(1, 1, 117) ;
     display: flex;  
@@ -381,7 +476,7 @@ height: 196px;
 .bg5 .newway{
     width: 50%;;
     color: white;
-    margin-top: 200px;
+    margin-top: 100px;
     
 }
 .bg5 .newway h1{
@@ -394,8 +489,6 @@ height: 196px;
 .bg5 .newway h1 span{
     font-size:4.4vw;
 }
-
-
 .bg5 .newway p{
     font-size:1.3vw;
     position: relative;
@@ -434,7 +527,7 @@ height: 196px;
     width:60%;
     position: relative;
     left: 4vw;
-    margin-top: 200px;
+    margin-top: 100px;
     
 }
 .bg6{
@@ -967,6 +1060,9 @@ color: aliceblue;
          .bg4{
             height: 166vh;
          }
+         .bg4two{
+            height: 166vh;
+         }
       
          .bg4 .exc{
             display: flex;
@@ -990,10 +1086,19 @@ color: aliceblue;
 
          .bg4 .courses2{
             display: block;
-            padding: 33px;
-            
+            padding: 33px; 
+         }
+         .bg4two .courses2{
+            display: block;
+            padding: 33px; 
+            margin-top: 16vh;
          }
          .bg4 .courses2 .cbody{
+            width: 345px;
+            height: 51vh;
+            margin-left: -7vw;
+         }
+         .bg4two .courses2 .cbody{
             width: 345px;
             height: 51vh;
             margin-left: -7vw;
@@ -1002,41 +1107,42 @@ color: aliceblue;
             width: 340px;
             height: 20vh;
         }
+        .bg4two .javaandco {
+            width: 340px;
+            height: 20vh;
+        }
         .bg4 .javaandco .love {
             left: 50vw;
         }
-
+        .bg4two .javaandco .love {
+            left: 50vw;
+        }
         .bg4 .javaandco3 a{
             font-size: initial;
         }
-
+        .bg4two .javaandco3 a{
+            font-size: initial;
+        }
         .bg4 .javaandco2 {
             font-size: 4.1vw;
             margin-left: 10px;
         }
-
-        .bg4 .sl{
-            display: block;
-            width: 345px;
-            height: 51vh;
-            margin-left: -9vw;
+        .bg4two .javaandco2 {
+            font-size: 4.1vw;
+            margin-left: 10px;
         }
-
-        .bg4 .sl .cbody{
-            width: 345px;
-            height: 45vh;
-            margin-left: 2vw;
-        /* margin-left: 0vw;*/
-        }
-
         .bg4 .author img {
             width: 6vw;
             height: 6vw;
             margin-right: 2vw;
         }
-
+        .bg4two .author img {
+            width: 6vw;
+            height: 6vw;
+            margin-right: 2vw;
+        }
         .bg5 {
-            margin-top: 101vh;
+            margin-top: 3vh;
         }
         .bg6{
             height: 19vh;
