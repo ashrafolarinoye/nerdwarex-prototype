@@ -195,7 +195,7 @@ height: 196px;
     border-radius: 20px;
     padding: 8px 23px 8px 23px;
     color: white;
-    border-radius: 15px;
+    border-radius: 20px;
  }
  .bg3 .vw:hover{
     color: rgb(3, 66, 91) ;
@@ -313,18 +313,12 @@ height: 196px;
     top: 0.5vw;
 }
 .bg4 .javaandco .love{
-    background-color: rgb(1, 1, 117);
-    color: white;
-    border-radius: 15px;
     padding: 4px;
     position: relative;
-    left: 14vw;
+    left: 12vw;
     top: 0.5vw;
 }
 .bg4two .javaandco .love{
-    background-color: rgb(1, 1, 117);
-    color: white;
-    border-radius: 15px;
     padding: 4px;
     position: relative;
     left: 14vw;
@@ -449,26 +443,7 @@ height: 196px;
     background-color: white;
     transition: 0.5s;
  }
-.bg4two .va{
-    position: relative;
-    margin-top: 0px;
-    top: 40vw;
-    text-decoration: none;
-    font-size: 1.5vw;
-    right: 53vw;
-    background-image: linear-gradient(224.06deg, #1687D9 14.4%, #16C8D9 94.95%);
-    padding: 14px;
-    padding: 8px 30px 10px 30px;
-    color: white;
-    border-radius: 20px;
-    height: 40px;
-    width: 150px;
- }
- .bg4two .va:hover{
-    color: rgb(3, 66, 91) ;
-    background-color: white;
-    transition: 0.5s;
- }
+
 .bg5{
     background-color:rgb(1, 1, 117) ;
     display: flex;  
@@ -714,8 +689,6 @@ color: aliceblue;
     gap: 50px;
     
 }
-
-
 .course-nav .bg{
     
     background-color: #3551A0;
@@ -723,46 +696,36 @@ color: aliceblue;
     padding: 10px; 
     width: 40px;
 }
-
 .course-text{
     display: flex;
     margin-top: 150px;
 }
-
-
-
 .nav-item{
     background-color: rgb(1, 1, 117);
 }
-
 .justify-content-end{
     background-color: rgb(1, 1, 117);
   
 }
-
 .nav-link{
     color: #E0E0E0B2;
     ;
 }
-
 .nav-link:hover{
     border-bottom: 0.2vw solid rgb(5, 121, 167) ;
     padding-bottom: 0.3vw;
     color: white;
 }
-
 .bg4 .others img{
     width: 15px;
     color: #E0E0E0;
     
 }
-
 .bg8 .rows .socials{
     margin-top: 20px;
     display: flex;
     gap: 10px
 }
-
 .nav .nav-links #search{
     position: relative;
     bottom: 1vw;
@@ -775,18 +738,14 @@ color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgba(0, 0, 255, 0);
 }
-
 .nav {
     height: 50px;
     width: 100%;
     position: relative;
-   
   }
-  
   .nav > .nav-header {
     display: inline;
   }
-  
   .nav > .nav-header > .nav-title {
     display: inline-block;
     font-size: 22px;
@@ -1061,7 +1020,7 @@ color: aliceblue;
             height: 166vh;
          }
          .bg4two{
-            height: 166vh;
+            height: 150vh;
          }
       
          .bg4 .exc{
@@ -1091,31 +1050,31 @@ color: aliceblue;
          .bg4two .courses2{
             display: block;
             padding: 33px; 
-            margin-top: 16vh;
+            margin-top: 13vh;
          }
          .bg4 .courses2 .cbody{
-            width: 345px;
-            height: 51vh;
-            margin-left: -7vw;
+            width: 316px;
+            height: 50vh;
+            margin-left: -3vw;
          }
          .bg4two .courses2 .cbody{
-            width: 345px;
-            height: 51vh;
-            margin-left: -7vw;
+            width: 316px;
+            height: 46vh;
+            margin-left: -3vw;
          }
          .bg4 .javaandco {
-            width: 340px;
+            width: 311px;
             height: 20vh;
         }
         .bg4two .javaandco {
-            width: 340px;
+            width: 311px;
             height: 20vh;
         }
         .bg4 .javaandco .love {
-            left: 50vw;
+            left: 42vw;
         }
         .bg4two .javaandco .love {
-            left: 50vw;
+            left: 42vw;
         }
         .bg4 .javaandco3 a{
             font-size: initial;
