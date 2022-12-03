@@ -1124,9 +1124,6 @@ color: aliceblue;
         .bg7 .bai .instructor {
             left: 30vw;
         }
-        
-
-
         .bg7 img {
             left: 14vw;
             width: 300px;
@@ -1137,40 +1134,36 @@ color: aliceblue;
             margin-top: 20px;
             padding-bottom: 3vw;
         }
-
         .bg4 .author p {
             top: 2vw;
         }
-
         .bg4 .author .amount {
             font-size: 3vw;
             margin-left: 120px;
         }
-
         .bg8 {
             display: block;
             margin: 0px;
-            background-image: linear-gradient(162deg, #02023a 0%, rgba(0, 58, 116, 0.9) 100%);
+            background-color: #3551A0;
             border-radius: 0px;
         }
-
         .bg8 .rows .row1 {
-            margin-top: 20vh;
+            margin-top: 15vh;
         }
-
+        .bg8 .rows .img {
+            margin-top: 20vh;
+            width: 1vw;
+        }
         .bg8 .rows .row1 p {
             top: 3.1999999999999993vw;
         }
-
         .bg8 .rows .row1 {
             top: 15.2vw;
         }
-
         .bg8 .rowstwo {
             margin-left: 10vw;
             margin-top: 10vw;
         }
-
         .bg8 .rowsthree {
             margin-left: 10vw;
             margin-top: 15vw;
