@@ -1152,9 +1152,17 @@ color: aliceblue;
         .bg8 .rows .row1 {
             margin-top: 15vh;
         }
-        .bg8 .rows .img {
+        .bg8 .rows .row2 {
+            font-size: small;
+        }
+        .bg8 .rows .row3 {
+            font-size: small;
+        }
+        .bg8 .rows .row1{
+            text-align: center;
             margin-top: 20vh;
             width: 1vw;
+            margin-left: 12vw;
         }
         .bg8 .rows .row1 p {
             top: 3.1999999999999993vw;
