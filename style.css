@@ -76,16 +76,15 @@ nav ul li a{
 .bg2 .newway .lm{
     color: orange;
     position: relative;
-    left: 12.5vw;
+    left: 10vw;
     top: 10vw;
-    font-size: 1.5vw;
-    
+    font-size: 1.5vw;  
 }
 .bg2 .lm:hover{
-    color: orange ;
     font-weight: 600;
     transition: 0.5s;
  }
+
 .bg2 .first{
     width: 50%;
     margin-top: 50px;
@@ -94,8 +93,6 @@ nav ul li a{
     width:80%;
     position: relative;
     left: 4vw;
-    
-    
 }
 .bg3{
     background-color:rgb(1, 1, 117) ;
@@ -103,16 +100,11 @@ nav ul li a{
     padding-left: 4vw;
     padding-right: 4vw;
     margin-bottom: 50px;
-    
 }
-
-
-
 .bg3 h2{
-color: white;
-top: 8vw;
-left: 20px;
-
+    color: white;
+    top: 8vw;
+    left: 20px;
 }
 .bg3 .coursesoffered{
     display: flex;
@@ -894,11 +886,12 @@ color: aliceblue;
           border-radius: 10px;
           border: 2px solid skyblue;
           padding: 3px;
-          width:20vw;
+          width: 65vw;
           color: white;
           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
           background-color: rgba(0, 0, 255, 0);
-      }
+          text-align: center;
+        }
   
       .nav > .nav-btn {
           display: inline-block;
@@ -943,6 +936,7 @@ color: aliceblue;
         .nav > .nav-links > a {
           display: block;
           width: 100%;
+          text-align: center;
         }
         .nav > #nav-check:not(:checked) ~ .nav-links {
           height: 0px;
@@ -980,28 +974,51 @@ color: aliceblue;
             transition: 0.5s;
         }
     
-          .course-nav {
+        .course-nav {
             margin-left: 70px;
             gap: 10px;
-          }
-
-          .bg2 .newway .jw {
-            font-size: 3vw;
         }
-
+        .bg2 .newway .jw {
+            font-size: 3vw;
+            left: 0vw;
+            top: 8vh;
+        }
+        .bg2 .newway{
+             width: 100%;
+        }
+        .bg2 {
+            display: block;
+            text-align: center;
+        }
+        .bg2 .newway h1{
+            margin-left: -10vw;
+            font-size: 4vw;
+        }
+        .bg2 .newway p {
+            font-size: 2vw;
+            position: relative;
+            top: 6.5vw;
+            margin-left: -10vw;
+        }
+        .bg2 .first img {
+            width: 100%;
+            left: 26vw;
+            margin-top: 5vh;
+        }
         .bg2 .newway .lm{
-            font-size: 3vw;
-            left: 7vw;
+            font-size: 4vw;
+            left: 1vw;
+            top: 8vh;
         }
-    
-          .bg4h22 {
-            margin-top: 150px;
+        .bg2 .lm img{
+            width: 6vw;
+         }
+         .course-text{
+            margin-top: 80px;
         }
-    
         .bg3 .datas {
             height: 160px;
         }
-    
         .bg3 p{
             font-size: 3vw;
             text-align: center;
