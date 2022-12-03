@@ -204,7 +204,7 @@ height: 196px;
  }
  .bg4{
     background-color:rgb(1, 1, 117) ;
-    height: 80vw;
+    height: 50vw;
  }
  .bg4 .exc{
     display: flex;
@@ -963,6 +963,10 @@ color: aliceblue;
         .bg3 .cypto{
             height: 160px;
          }
+
+         .bg4{
+            height: 166vh;
+         }
       
          .bg4 .exc{
             display: flex;
@@ -986,12 +990,12 @@ color: aliceblue;
 
          .bg4 .courses2{
             display: block;
-            padding: 20px;
+            padding: 33px;
             
          }
          .bg4 .courses2 .cbody{
             width: 345px;
-            height: 45vh;
+            height: 51vh;
             margin-left: -7vw;
          }
          .bg4 .javaandco {
@@ -1014,7 +1018,7 @@ color: aliceblue;
         .bg4 .sl{
             display: block;
             width: 345px;
-            height: 45vh;
+            height: 51vh;
             margin-left: -9vw;
         }
 
