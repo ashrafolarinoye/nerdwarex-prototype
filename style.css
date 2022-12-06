@@ -364,9 +364,9 @@ height: 196px;
     display: flex;
     margin-top: 1.5vw;
     color: white;
-  font-size: 0.9vw;
-  border-bottom: thin solid rgb(5, 121, 167) ;
-  padding-bottom: 2.5vw;
+    font-size: 0.9vw;
+    border-bottom: thin solid rgb(5, 121, 167) ;
+    padding-bottom: 2.5vw;
 }
 .bg4 .author img{
     width: 2vw;
@@ -1182,7 +1182,6 @@ color: aliceblue;
         .bg7 .bai .instructor {
             left: 38vw;
             font-size: 3vw;
-        }
         }
         .bg7 img {
             left: 10vw;
